@@ -21,7 +21,7 @@ def read_file(path):
     Returns
     -------
     datafile : pandas.DataFrame
-        the resulting DataFrame read from the CSV file..
+        the resulting DataFrame read from the CSV file.
 
     """
     datafile = pd.read_csv(path)
